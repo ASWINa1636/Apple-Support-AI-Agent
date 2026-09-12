@@ -1,4 +1,4 @@
-# Apple Support AI Agent 🍎
+# Apple Support AI Agent
 
 **Hiver SDE Intern — Take-Home Assignment**
 
@@ -14,7 +14,7 @@ An AI customer-support agent for Apple Support (@AppleSupport) built from real T
 
 ```bash
 # 1. Clone and enter the project
-git clone <this-repo-url>
+git clone <https://github.com/ASWINa1636/Apple-Support-AI-Agent.git
 cd hiver-ai-support-agent
 
 # 2. Install dependencies
