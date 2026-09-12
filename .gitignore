@@ -1,0 +1,68 @@
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & linting caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Large raw data & model embedding caches
+data/*.csv
+data/*.parquet
+data/*.npz
+data/*.pkl
+data/twcs/
+data/cache/
+data/raw/
+
+# Temporary and local batch results (keep evaluation benchmark reports)
+results/batch_results.json
+*.log
+
+# Hugging Face & Sentence-Transformers local download caches
+.cache/
+huggingface/
+
+# Operating System & Editor artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

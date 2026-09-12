@@ -1,0 +1,226 @@
+{
+  "timestamp": "2026-09-12T10:33:36.645259",
+  "golden_set_size": 200,
+  "modes": {
+    "trivial": {
+      "intent": {
+        "accuracy": 0.315,
+        "macro_f1": 0.04790874524714829,
+        "weighted_f1": 0.1509125475285171,
+        "per_class": {
+          "device_not_working": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 14.0
+          },
+          "app_issue": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 44.0
+          },
+          "account_locked": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1.0
+          },
+          "billing_charge": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 3.0
+          },
+          "battery_drain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 12.0
+          },
+          "connectivity": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 3.0
+          },
+          "update_problem": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 47.0
+          },
+          "data_loss": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1.0
+          },
+          "repair_warranty": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "general_inquiry": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 12.0
+          },
+          "escalation_request": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "other": {
+            "precision": 0.315,
+            "recall": 1.0,
+            "f1-score": 0.4790874524714829,
+            "support": 63.0
+          },
+          "macro avg": {
+            "precision": 0.02625,
+            "recall": 0.08333333333333333,
+            "f1-score": 0.039923954372623575,
+            "support": 200.0
+          },
+          "weighted avg": {
+            "precision": 0.099225,
+            "recall": 0.315,
+            "f1-score": 0.1509125475285171,
+            "support": 200.0
+          }
+        }
+      },
+      "reply": {
+        "rougeL_mean": 0.1630525631177405,
+        "rougeL_std": 0.057753699319904345
+      },
+      "escalation": {
+        "precision": 0.5454545454545454,
+        "recall": 1.0,
+        "f1": 0.7058823529411765,
+        "accuracy": 0.95
+      }
+    },
+    "simple": {
+      "intent": {
+        "accuracy": 0.945,
+        "macro_f1": 0.9519280160893153,
+        "weighted_f1": 0.9448202896897502,
+        "per_class": {
+          "device_not_working": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 14.0
+          },
+          "app_issue": {
+            "precision": 0.9743589743589743,
+            "recall": 0.8636363636363636,
+            "f1-score": 0.9156626506024096,
+            "support": 44.0
+          },
+          "account_locked": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1.0
+          },
+          "billing_charge": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1-score": 0.8571428571428571,
+            "support": 3.0
+          },
+          "battery_drain": {
+            "precision": 0.8571428571428571,
+            "recall": 1.0,
+            "f1-score": 0.9230769230769231,
+            "support": 12.0
+          },
+          "connectivity": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "update_problem": {
+            "precision": 0.9782608695652174,
+            "recall": 0.9574468085106383,
+            "f1-score": 0.967741935483871,
+            "support": 47.0
+          },
+          "data_loss": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1.0
+          },
+          "repair_warranty": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "general_inquiry": {
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1-score": 0.9090909090909091,
+            "support": 12.0
+          },
+          "escalation_request": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "other": {
+            "precision": 0.9117647058823529,
+            "recall": 0.9841269841269841,
+            "f1-score": 0.9465648854961832,
+            "support": 63.0
+          },
+          "macro avg": {
+            "precision": 0.7892939505791169,
+            "recall": 0.8032119574672767,
+            "f1-score": 0.7932733467410961,
+            "support": 200.0
+          },
+          "weighted avg": {
+            "precision": 0.949134732488313,
+            "recall": 0.945,
+            "f1-score": 0.9448202896897503,
+            "support": 200.0
+          }
+        }
+      },
+      "reply": {
+        "rougeL_mean": 1.0,
+        "rougeL_std": 0.0
+      },
+      "escalation": {
+        "precision": 0.5454545454545454,
+        "recall": 1.0,
+        "f1": 0.7058823529411765,
+        "accuracy": 0.95
+      }
+    },
+    "main": {
+      "intent": {
+        "error": "GROQ_API_KEY not set. Please set it as an environment variable."
+      },
+      "reply": {
+        "error": "GROQ_API_KEY not set"
+      },
+      "escalation": {
+        "error": "GROQ_API_KEY not set"
+      }
+    }
+  },
+  "judge_agreement": {
+    "error": "GROQ_API_KEY not set"
+  }
+}
